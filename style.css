@@ -1,6 +1,6 @@
 body {
     width: 100vw;
-    background: #F0F0F0;
+    background: #F5F5F5;
     margin-top: -1; margin-left: -1;
     font-family: karmina, serif;
     font-style: normal;
@@ -11,7 +11,7 @@ body {
 .number {
 /*    background-color: palegreen;*/
     color: #0A0A0A;
-    border-bottom: 60px solid cornsilk;
+/*    border-bottom: 60px solid cornsilk;*/
     line-height: 40vh;
     font-size: 4.0em;
 }
@@ -91,8 +91,8 @@ p {
   
 .indiclist {
     width: 100vw;
-    padding-top: 1vh;
-    padding-bottom: 3vh;  
+    padding-top: 0vh;
+    padding-bottom: 5vh;  
     font-size: 2.6em;
 /*    border-bottom: 8px solid #1A1A1A;*/
 }
@@ -140,11 +140,13 @@ p {
     }
     
     .contentcontainer {
+        background: cornsilk;
         min-width: 100vw;
-        margin-top: 2vh;
+        margin-top: 10vh;
         margin-left: auto; margin-right: auto;
         padding-left: 10%;
         padding-right: 10%;
+        padding-bottom: 40%;
     }
     
 
