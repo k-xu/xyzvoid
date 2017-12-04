@@ -1,5 +1,6 @@
 body {
-    background: #EDEDED;
+    width: 100vw;
+    background: #F0F0F0;
     margin-top: -1; margin-left: -1;
     font-family: karmina, serif;
     font-style: normal;
@@ -8,8 +9,15 @@ body {
 
 /*numwrap*/
 .number {
-    background-color: palegreen;
+/*    background-color: palegreen;*/
     color: #0A0A0A;
+    border-bottom: 60px solid cornsilk;
+    line-height: 40vh;
+    font-size: 4.0em;
+}
+
+.highlight {
+    background: cornsilk;
 }
 
 /* Headers */
@@ -40,7 +48,7 @@ h3 {
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: 3.8em;
     font-weight: 400;
 }
 
@@ -82,9 +90,11 @@ p {
 
   
 .indiclist {
+    width: 100vw;
     padding-top: 1vh;
     padding-bottom: 3vh;  
     font-size: 2.6em;
+/*    border-bottom: 8px solid #1A1A1A;*/
 }
 
 /*DESKTOP BREAKPOINTS*/
@@ -118,20 +128,25 @@ p {
     }
     
      .instructions {
-        width: 86vw;
-        padding-top: 0vh;
-        padding-bottom: 3.0vh;
+        min-width: 100vw;
+        margin-top: 0vh;
+        margin-left: auto; margin-right: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100vw;
+        padding-top: 1vh;
         font-size: 2.0em;
         line-height: 2.0em;
     }
     
     .contentcontainer {
-        min-width: 90vw;
-        margin-top: 0vh;
+        min-width: 100vw;
+        margin-top: 2vh;
         margin-left: auto; margin-right: auto;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
+    
 
 
 
