@@ -92,7 +92,7 @@ p {
 .indiclist {
     width: 100vw;
     padding-top: 0vh;
-    padding-bottom: 5vh;  
+    padding-bottom: 25vh;  
     font-size: 2.6em;
 /*    border-bottom: 8px solid #1A1A1A;*/
 }
@@ -146,7 +146,7 @@ p {
         margin-left: auto; margin-right: auto;
         padding-left: 10%;
         padding-right: 10%;
-        padding-bottom: 40%;
+        padding-bottom: 30%;
     }
     
 
